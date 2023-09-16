@@ -97,3 +97,45 @@ a.link {
 #footer {
 	padding: 15px;
 }
+
+div.member {
+	display: relative;
+	width: 820px;
+}
+
+div.member img {
+	position: relative;
+	float: left;
+	height: 200px;
+	width: 190x;
+}
+
+div.nameAndJob {
+	display: block;
+	position: relative;
+	width: 600px;
+	height: 40px;
+	left: 35px;
+}
+
+span.name {
+	font-weight: bold;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+span.instrument {
+	display: inline;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+p {
+	display: block;
+	position: relative;
+	width: 800px;
+	height: 150px;
+	left: 35px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif
+}

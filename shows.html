@@ -2,29 +2,40 @@
 	<head>
 		<title>Misfit Toys Band</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="main.css">
 	</head>
 	<body>
 		<div id="container">
-			<div id="header">
-				<h1>Misfit Toys Band</h1>
-			</div>
-			<div id="nav">
-				<ul>
-					<li><a href="index.html" alt="The Band"><img src="/images/TheBandMix.png" /></a></li>
-					<li><a href="music.html" alt="The Music"><img src="/images/TheMusicMix.png" /></a></li>
-					<li><a href="shows.html" alt="The Shows"><img src="/images/TheShowsMix.png" /></a></li>
-					<li><a href="contact.html" alt="Contact Us"><img src="/images/ContactUsMix.png" /></a></li>
-				</ul>
+			<div id="banner">
+				<div id="logo"></div>	
+				<div id="nav">
+					<ul>
+						<li><a class="link" id="bandLink" href="index.html" alt="The Band"></a></li>
+						<li><a class="link" id="musicLink" href="music.html" alt="The Music"></a></li>
+						<li><a class="link" id="showsLink" href="shows.html" alt="The Shows"></a></li>
+						<li><a class="link" id="contactLink" href="contact.html" alt="Contact Us"></a></li>
+					</ul>
+				</div>
 			</div>
 			<div id="content">
-				<h2>The Band</h2>
-				<p>Welcome to the Misfit Toys Band website. We are a band that plays music.</p>
-				<p>Here is a picture of us:</p>
-				<img src="/images/band.jpg" alt="The Misfit Toys Band">
+				<h2>The Shows</h2>
+				<div class="show">
+					<span class="showDate">September 23</span>-<span class="showTime">3:40-4:40pm</span>
+					<span class="showName">Roslindale Porchfest</span>
+					<span class="showLocation">23 Soemthing Street, Rolsindale MA</span>
+					<p>The Misfit Toys Band are excited to play our first Roslindale Porch Fest!  Come see us and many other local bands for free.</p>
+				</div>
+				<div class="show">
+					<span class="showDate">October 7</span>-<span class="showTime">8:30-11:30pm</span>
+					<span class="showName">Limeys Pub</span>
+					<span class="showLocation">Washington St, Norwood MA</span>
+					<p>The Misfit Toys Band returning to the local live music venue, Limeys Pub, with Time of Legends! 2 bands for the price of none!</p>
+				</div>
 			</div>
 			<div id="footer">
 				<p>&copy; 2023 Misfit Toys Band</p>
 			</div>
+			<hr style="clear:both;" />
+		</div>
 	</body>
 </html>
