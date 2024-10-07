@@ -1,13 +1,13 @@
 body {
 	margin: 0px;
-	background-image: url("/images/BackgroundCool.png");
+	background: #5e5e5e;
 	top: 0px;
 }
 #container {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0px;
-	width: 1064px;
+	width: 1200px;
 	background-color: #000000;
 }
 #banner {
@@ -17,9 +17,9 @@ body {
 	margin-right: auto;
 	margin-top: 0px;
 	padding-top: 0px;
-	width: 1064px;
-	height: 602px;
-	background-image: url(/images/top_background.png);
+	width: 1200px;
+	height: 628px;
+	background-image: url(/images/MisfitToysIndividualsEventLogo.png);
 }
 #logo {
 	margin: auto;
@@ -31,12 +31,13 @@ body {
 #nav {
 	position: relative;
 	margin: auto;
-	top: +50px;
+	background: #5e5e5e; 
+	top: +560px;
 }
 #nav ul li {
 	display: inline-block;
 	margin-left: 20px;
-	width: 200px;
+	width: 250px;
 	height: 75px;
 }
 a.link {
@@ -89,7 +90,8 @@ a.link {
 }
 
 #content {
-	padding: 15px;
+	padding-left: 45px;
+	padding-right: 45px;
 	color: #FFFFFF;
 	font-family: Arial, Helvetica, sans-serif
 }
@@ -113,6 +115,7 @@ div.member img {
 div.nameAndJob {
 	display: block;
 	position: relative;
+	font-size: 24px;
 	width: 600px;
 	height: 40px;
 	left: 35px;
@@ -130,12 +133,20 @@ span.instrument {
 	font-family: Arial, Helvetica, sans-serif
 }
 
+h2.title {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
 p {
 	display: block;
 	position: relative;
-	width: 800px;
+	width: 1000px;
 	height: 150px;
 	left: 35px;
 	color: white;
-	font-family: Arial, Helvetica, sans-serif
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
 }
