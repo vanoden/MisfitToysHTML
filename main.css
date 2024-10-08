@@ -150,9 +150,31 @@ p {
 	display: block;
 	position: relative;
 	width: 1000px;
-	height: 150px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	left: 35px;
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 24px;
+}
+
+.member p {
+	height: 120px;
+}
+
+.showDate,
+.showTime {
+	font-size: 36px;
+	padding-right: 16px;
+	padding-bottom: 10px;
+}
+.showName {
+	display: block;
+	font-size: 30px;
+	padding-right: 16px;
+	padding-bottom: 10px;
+}
+.showLocation {
+	font-size: 30px;
+	padding-right: 16px;
 }
