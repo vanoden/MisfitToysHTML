@@ -126,6 +126,10 @@ a.link {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+textarea.input {
+	background-color: #000000;
+}
+
 #content_form {
 	float: left;
 	padding-left: 10px;
