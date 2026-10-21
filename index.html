@@ -1,35 +1,37 @@
 <html>
-	<head>
-		<title>Misfit Toys Band</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="/css/style-main.css">
-		<link rel="stylesheet" href="/css/main.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
-		<script src="/js/textEditor.js"></script>
-	</head>
-	<body>
-		<div id="container">
-			<div id="banner">
-				<div id="nav">
-					<ul>
-						<li><a class="link" id="bandLink" href="/" alt="The Band"></a></li>
-						<li><a class="link" id="musicLink" href="/music" alt="The Music"></a></li>
-						<li><a class="link" id="showsLink" href="/shows" alt="The Shows"></a></li>
-						<li><a class="link" id="contactLink" href="/contact" alt="Contact Us"></a></li>
-					</ul>
-				</div>
-			</div>
-			<div id="content">
-				<h2 class="title"><r7 object="page" property="title"/></h2>
-<r7 object="page" property="view"/>
-			</div>
-			<div id="footer">
-				<p>&copy; 2025 Misfit Toys Band</p>
-			</div>
-			<hr style="clear:both;" />
+<head>
+	<title>Misfit Toys</title>
+	<!-- Load Fonts from Google -->
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Permanent+Marker&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/css/home.css">
+</head>
+<body>
+	<!-- Outer Container -->
+	<div id="outer-container">
+		<!-- Header -->
+		<header>
+			<!-- Mini Logo -->
+			<img id="header-logo" src="/img/HeaderIcon.png" alt="Mini Logo">
+			<!-- Top HorizontalNavigation -->
+			<nav id="mainNav" class="nav-menu nav-menu--horizontal">
+				<r7 object="navigation" property="menu" code="topnav" version="v2"/>
+			</nav>
+		</header>
+		<!-- Find black border under header -->
+		<div class="header-bottom-border"></div>
+		<!-- Banner -->
+		<div id="banner" class="banner">
+			<img id="banner-photo" src="/img/BannerPhoto.png" alt="Banner Image">
+			<img id="banner-logo" src="/img/BannerLogo.png" alt="Banner Logo">
+		</div>
+		<div id="bottom-section">
+		</div>
+		<!-- Content Section of the page -->
+		<div id="content-section">
+			<h2><r7 object="page" property="title"/></h2>
+			<r7 object="page" property="view"/>
 		</div>
 	</div>
+	<!-- End of Outer Container -->
 </body>
 </html>
